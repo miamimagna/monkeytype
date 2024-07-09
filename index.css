@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    color: white;
+    padding: 0;
+}
+
+svg:not(:root) {
+    width: 50px;
+}
+
+h1 {
+    display: inline;
+    position: relative;
+    bottom: 7px;
+}
+
+.header {
+    margin-top: 6vh;
+    margin-left: 30px;
+    height: 100px;
+}
+
+p#caption {
+    color: grey;
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 11.5px;
+    top: 2.5vh;
+    left: 95px;
+}
+
+.content-area {
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: 100px;
+}
+
+
+#text,
+#ins,
+.lang,
+#time,
+.cover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    font-weight: 550;
+    margin-left: 5vw;
+    margin-right: 8vw;
+    color: rgb(202, 201, 201);
+    text-align: justify;
+    word-spacing: 0.1px;
+}
+
+#ins {
+    font-size: 1em;
+}
+
+.done {
+    color: white;
+}
+
+.pending {
+    color: rgb(150, 149, 149);
+}
+
+.current {
+    background: rgb(184, 2, 71);
+    color: white;
+}
+
+.wpm {
+    color: rgb(255, 0, 98);
+}
+
+.lang {
+    position: absolute;
+    margin-left: 40vw;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#lang-svg {
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+#text {
+    outline: none;
+}
+
+.reset {
+    padding: 1em;
+    background-color: black;
+    border: none;
+    margin-left: 47vw;
+}
+
+reset:focus {
+    border: rgb(150, 149, 149);
+}
+
+#time {
+    position: absolute;
+    margin: 0;
+    color: rgb(184, 2, 71);
+}
+
+.cover {
+    position: absolute;
+    margin-left: 20vw;
+    text-align: center;
+    visibility: none;
+}
